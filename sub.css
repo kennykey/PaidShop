@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gam{
+    height: 400px;
+}
+
+#Information .carousel-item .card{
+    padding: 0;
+}
+
+header{
+    height:600px;
+    background:url("https://images.unsplash.com/photo-1497636577773-f1231844b336?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")center no-repeat;
+}
+
+header .navbar{
+    padding: 0px 50px;
+}
+
+.navbar li a{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+.navbar li a:hover{
+    color: gray;
+}
+
+header .nav-link:after{
+    content:"";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -1px;
+    transition: 0.9s;
+}
+
+header .nav-link:hover::after{
+    background-color: #fff;
+    width: 100%;
+}
+
+div .card{
+    width: 200px;
+}
+
+#Information .card:hover{
+    box-shadow: 0 10px 16px 0;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.multi-collapse .card-img-top{
+    width: 200px;
+    height: 170px;
+}
+
+#Contact .card-text{
+    font-size: 12px;
+}
+
+#Contact .card:hover{
+    color: #fff;
+    background-color: grey;
+}
+
+#Contact{
+    height:700px;
+    background: url("src/contact.jpg")center no-repeat;
+}
+
+.card i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.breadcrumb{
+    position: absolute;
+    bottom: 14%;
+}
+
+.logo1{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 82%;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#menu div .bi{
+    font-size: 30px;
+    color: gray;
+}
+
+#menu div .bi:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2. 1fr);
+    grid-gap: 20px;
+}
+
+.Chead{
+    height: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.foot{
+    font-weight:bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+}
+
+footer .nav-link:hover{
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; 
+}
